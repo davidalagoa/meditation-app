@@ -10,3 +10,42 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+.time-select,
+.sound-picker,
+.player-container {
+    height: 80%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.player-container {
+    position: relative;
+}
+
+.player-container svg {
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.time-select {
+    background-color: lightblue;
+}
+
+.sound-picker {
+    background-color: lightgreen;
+}
+
+.player-container {
+    background-color: lightcoral;
+}
+
+video {
+    display: none;
+}
